@@ -1,80 +1,84 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 
-<html lang="zh-Hant-TW">
+    <html lang="zh-Hant-TW">
 
-  <head>
-  	<meta charset="utf-8">
-  	<tittle>First Page</tille>
-  </head>
+      <head>
+      	<meta charset="utf-8">
+      	<tittle>First Page</tille>
+      </head>
 
-  <body>
-  	<section>
-  		章節
-  	</section>
-    <div>
-      <h1>My blog</h1>
-    </div>
-    <a href="http://www.google.com/">Google</a>
-    <a href="http://www.yahoo.com/">Yahoo</a>
-    <a href="http://www.plurk.com/">Plurk</a>
-    <figure>
-      <img src="test pic.jpg" width="60%" height="60%">
-      <figcaption>圖一</figcaption>
-    </figure>
+      <body>
+      	<section>
+      		章節
+      	</section>
+        <div>
+          <h1>My blog</h1>
+        </div>
+        <a href="http://www.google.com/">Google</a>
+        <a href="http://www.yahoo.com/">Yahoo</a>
+        <a href="http://www.plurk.com/">Plurk</a>
+        <figure>
+          <img src="test pic.jpg" width="60%" height="60%">
+          <figcaption>圖一</figcaption>
+        </figure>
 
-    <form action="http://www.meigic.tw/test.php">
+        <form method="post" action="http://www.meigic.tw/test.php" enctype="multipart/form-data">
 
-    <div>
-      <label>Nickname:</label>
-      <input name="nickname" type="text">
-    </div>
-    <div>
-      <label>Email:</label>
-      <input name="email" type="email">
-    </div>
-    <div>
-      <label>Password:</label>
-      <input name="password" type="password">
-    </div>
-    <div>
-      <button>Sign up</button>
-    </div>
+        <div>
+          <label for="nickname">Nickname:</label>
+          <input id="nickname" name="nickname" type="text" placeholder="請輸入暱稱" />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input id="email" name="email" type="email" placeholder="請輸入郵件信箱" />
+        </div>
+        <div>
+          <label for="passward">Password:</label>
+          <input id="passward" name="password" type="password" placeholder="請輸入密碼" />
+        </div>
+        <div>
+          <label for="pic_file">Pic:</label>
+          <input id="pic_file" name="pic_file" type="file" />
+        </div>
+        <div>
+          <button>Sign up</button>
+        </div>
+        
+        </form>
 
-    </form>
+        <table border="1">
+          <tr>
+            <th>Number</tb>
+            <th>First Name</tb>
+            <th>Last Name</tb>
+            <th>Point</tb>
+          </tr>
+          <tr>
+            <th>1</tb>
+            <th>Lost</tb>
+            <th>Road</tb>
+            <th>70</tb>
+          </tr>
+          <tr>
+            <th>2</tb>
+            <th>Tiger</tb>
+            <th>Ace</tb>
+            <th>150</tb>
+          </tr>
+          <tr>
+            <th>3</tb>
+            <th>Tiger</tb>
+            <th>I</tb>
+            <th>100</tb>
+          </tr>
+          <tr>
+            <th>4</tb>
+            <th>King</tb>
+            <th>Tiger</tb>
+            <th>200</tb>
+          </tr>
+        </table>
 
-    <table border="1">
-      <tr>
-        <th>Number</tb>
-        <th>First Name</tb>
-        <th>Last Name</tb>
-        <th>Point</tb>
-      </tr>
-      <tr>
-        <th>1</tb>
-        <th>Lost</tb>
-        <th>Road</tb>
-        <th>70</tb>
-      </tr>
-      <tr>
-        <th>2</tb>
-        <th>Tiger</tb>
-        <th>Ace</tb>
-        <th>150</tb>
-      </tr>
-      <tr>
-        <th>3</tb>
-        <th>Tiger</tb>
-        <th>I</tb>
-        <th>100</tb>
-      </tr>
-      <tr>
-        <th>4</tb>
-        <th>King</tb>
-        <th>Tiger</tb>
-        <th>200</tb>
-      </tr>
-    </table>
-
-  </body>
-
-</html>
+      </body>
+      
+  </html>
